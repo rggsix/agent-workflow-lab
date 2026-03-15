@@ -36,9 +36,7 @@
 - [ ] 步骤2: 规划 [planning]
 - [ ] 步骤3: ToDo 同步（规划后） [precoding-todo]
 - [ ] 步骤4: 编码执行 [execute-coding]
-- [ ] 步骤5: ToDo 同步（编码后） [postcoding-todo]
-- [ ] 步骤6: review + human review [coding-workflow + human-in-loop gate]
-- [ ] 步骤7: commit [commit]
+- [ ] 步骤5: AI review [coding-workflow]
 
 ## 偏差说明（执行后填写）
 

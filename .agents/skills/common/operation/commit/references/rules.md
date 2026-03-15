@@ -8,6 +8,7 @@
 2. 未完成原子化分组与规则校验，不得执行提交。
 3. 触发本 skill 后，完成标准是 `git` 工作区清空（无 staged/unstaged/untracked 改动）。
 4. 若存在必须保留的改动，需先获得人类明确指示，再按指示跳过。
+5. commit 前必须执行 `postcoding-todo` 做二次 ToDo 整理（除非人类明确要求跳过）。
 
 ## 禁止
 

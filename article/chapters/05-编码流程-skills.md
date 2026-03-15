@@ -46,11 +46,13 @@ flowchart TB
    - 为什么是Optional: 不同 技术栈/项目阶段 的项目对单测的需求程度不同, 根据需要添加测试代码步骤, 以免造成无必要的心智负担
    - 单测是可以后期补全的, vibe coding项目迭代快, 测试代码生成成本低廉
 7. (Optional)执行测试代码
-8. 二次 ToDo 规划整理
-   - 是否引入隐患或有待完成项需要记录?
-   - 是否有已完成项需要标记
-9.  AI review(确认是否符合代码规范, 开发习惯)
-10. (hunman-in-the-loop)hunman review skill (用什么工具?)
-11. commit
-12. (TODO)沉淀开发日志?
-13. 自总结更新 **项目skills**
+9. AI review(确认是否符合代码规范, 开发习惯)
+10. --- 人类介入 ---
+11. hunman review
+12. commit流程, 人类触发: "提代码"
+    1.  二次 ToDo 规划整理
+       - 是否引入隐患或有待完成项需要记录?
+       - 是否有已完成项需要标记
+    2.  (TODO)沉淀开发日志?
+    3.  (TODO)自总结更新 **项目skills**
+    4.  commit[commit]

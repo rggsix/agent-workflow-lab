@@ -16,7 +16,7 @@
 
 本次任务的完整内容描述
 
-- [ ] 步骤1: 意图对齐 [coding-workflow + human-in-loop gate]
+- [ ] 步骤1: 意图对齐 [intent-align]
 - [ ] 步骤2: 规划 [coding-workflow]
 - [ ] 步骤3: ToDo 同步（规划后） [todo]
 - [ ] 步骤4: 编码执行 [coding-workflow]

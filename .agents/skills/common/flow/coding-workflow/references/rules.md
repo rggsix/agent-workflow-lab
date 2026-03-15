@@ -14,7 +14,7 @@
 
 ## 步骤与技能映射
 
-1. 步骤1 意图对齐 -> `coding-workflow` + `human-in-loop gate`
+1. 步骤1 意图对齐 -> `intent-align`
 2. 步骤2 规划 -> `coding-workflow`
 3. 步骤3 ToDo 同步（规划后） -> `todo`
 4. 步骤4 编码执行 -> `coding-workflow`（遇阻断走 `human-in-loop gate`）

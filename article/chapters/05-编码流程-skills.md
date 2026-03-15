@@ -27,29 +27,30 @@ flowchart TB
 
 #### 具体流程如下:
 
+0. 归档上次的plan, 保证每次循环可追溯, 重放或恢复
+
 1. 轻量规划, 决定是否进入plan流程 [flow-gate]
    - if true: [coding-workflow] skills
    - else: return
 2. 分析人类意图, 对齐 [intent-align]
    - 可以理解为技术返述
-3. 规划
+3. 规划 [planning]
    - 观察与参考现有代码/文档
-   - 我要做什么
-   - 需要哪些步骤
+   - 我要做什么, 需要哪些步骤
    - 规划(spec)
      - markdown与mermaid
-     - 进一步思考: 未来ToDo并分级
-4. 执行(编码)
-   - human-in-loop: 不懂就问
-5. (Optional)测试代码:
-   - 为什么是Optional: 不同技术栈, 项目阶段的项目对单测的需求程度不同, 根据需要添加测试代码步骤, 以免造成无必要的心智负担
-   - 单测是可以后期补全的, vibe coding项目迭代快, 测试代码生成成本低廉, 废弃速度更快?
-6. (Optional)执行测试代码
-7. 二次 ToDo 规划整理
+4. [precoding-todo]
+5. 执行(编码) [execute-coding]
+   - human-in-loop: 遇到高风险, 或需要偏离 plan 则阻断并确认
+6. (Optional)测试代码:
+   - 为什么是Optional: 不同 技术栈/项目阶段 的项目对单测的需求程度不同, 根据需要添加测试代码步骤, 以免造成无必要的心智负担
+   - 单测是可以后期补全的, vibe coding项目迭代快, 测试代码生成成本低廉
+7. (Optional)执行测试代码
+8. 二次 ToDo 规划整理
    - 是否引入隐患或有待完成项需要记录?
    - 是否有已完成项需要标记
-8. AI review(确认是否符合代码规范, 开发习惯)
-9. (hunman-in-the-loop)hunman review skill (用什么工具?)
-10. commit
-11. (TODO)沉淀开发日志?
-12. 自总结更新 **项目skills**
+9.  AI review(确认是否符合代码规范, 开发习惯)
+10. (hunman-in-the-loop)hunman review skill (用什么工具?)
+11. commit
+12. (TODO)沉淀开发日志?
+13. 自总结更新 **项目skills**

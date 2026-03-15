@@ -2,11 +2,6 @@
 
 一句话定位：定义 commit skill 的硬边界，确保提交原子且安全。
 
-## 允许
-
-- `git add`
-- `git commit`
-
 ## 强制触发
 
 1. 凡涉及 `git add` 或 `git commit` 的请求，必须先进入本 skill。

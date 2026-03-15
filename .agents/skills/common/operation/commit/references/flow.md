@@ -13,3 +13,4 @@
    - `git add` 相关文件。
    - 生成 commit message。
    - `git commit`。
+5. 不断执行这个循环, 直到清空git工作区(除非用户明确表示过要忽略哪些改动)

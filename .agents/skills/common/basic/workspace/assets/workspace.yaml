@@ -7,3 +7,4 @@ lookup:
   key: skill_name
 skills:
   workspace: .ai-workspace/workspace
+  todo: .ai-workspace/todo

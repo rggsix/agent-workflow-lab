@@ -10,3 +10,22 @@
 ## 3. operation skills
 
 ##### 1. todo
+告诉AI怎么管理todo
+
+路径位于 
+```
+- 进行中: .ai-workspace/todo/active.md
+- 已归档: .ai-workspace/todo/archive/YYYY-MM.md
+```
+
+具体格式
+```markdown
+# P0
+- [ ] [需求标签] 待办事项简述 (YYYY-MM-DD)
+
+# P1
+...
+
+# P2
+...
+```

@@ -30,7 +30,7 @@ flowchart TB
 1. 轻量规划, 决定是否进入plan流程 [flow-gate]
    - if true: [coding-workflow] skills
    - else: return
-2. 了解与分析人类意图
+2. 分析人类意图, 对齐 [intent-align]
    - 可以理解为技术返述
 3. 规划
    - 观察与参考现有代码/文档

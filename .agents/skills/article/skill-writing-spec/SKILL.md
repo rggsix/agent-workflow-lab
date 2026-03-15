@@ -9,7 +9,6 @@ description: 约束并统一 skill 的编写方式。用于创建或更新 skill
 
 ## 必读引用
 
-- [references/rules.md](references/rules.md)
-- [references/structure.md](references/structure.md)
-- [references/checklist.md](references/checklist.md)
-- [references/template.md](references/template.md)
+- [references/rules.md](references/rules.md): 编写硬约束（必须遵守）。
+- [references/checklist.md](references/checklist.md): 创建或更新前的最小自检。
+- [references/template.md](references/template.md): 可直接套用的极简模板。

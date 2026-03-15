@@ -9,10 +9,17 @@
 3. 使用单文件：`plan.md`。
 4. 流程开始前检查 `plan.md`：若已存在，先归档并删除，再开始新流程。
 
+## Task-ID 规则
+
+1. 格式：`YYYYMMDD-<seq>`。
+2. `seq` 为当日流水号，从 `01` 递增。
+
 ## 文件模板
 
 ```md
 # Coding Workflow Plan
+
+Task-ID: YYYYMMDD-<seq>
 
 ## 人类输入原文
 

@@ -4,7 +4,7 @@
 
 ## 格式
 
-`<type>[optional scope]: <description>`
+`<type>: <description>`
 
 ## Type
 

@@ -21,6 +21,7 @@
 - 统一低价值决策（error、log、commit、ToDo 等）
 - 降低认知噪点
 - 让注意力集中在关键结构上
+- 自动闭环风险
 
 > 目标很简单：**让复杂系统在高速迭代下尽量维持可控**。
 
@@ -32,14 +33,34 @@
 
 ---
 
+# 如何使用它
+
+我建议你遵循这个**人机****协作循环**配合使用:
+
+##### **明确意图** → **定义单一任务** → AI执行 → Review ↔ 再执行 → 提交
+
+这属于一种典型的 **Human-in-the-Loop (HITL)** 协作模式
+
+判断一个意图是否“明确”，可以用一个简洁标准：
+
+> **这个任务在commit message里一句话能不能说清楚**
+
+---
+
+
+
 # 目录
 
 1. 在项目中引入 Skills
+
 > 略
+
 2. [区分通用 Skills 与项目 Skills](./article/chapters/02-区分通用与项目skills.md)
 3. [基础设施](./article/chapters/03.基础设施.md)
 4. [Install Skills（冷启动, agent入职）](./article/chapters/04-install-skills-冷启动-agent入职.md)
+
 > todo
+
 1. [编码流程 Skills](./article/chapters/05-编码流程-skills.md)
 2. [通用 Skills 清单](./article/chapters/06-通用skills清单.md)
 3. [项目 Skills 清单](./article/chapters/07-项目skills清单.md)

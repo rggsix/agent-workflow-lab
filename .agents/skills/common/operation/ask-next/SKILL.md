@@ -1,6 +1,6 @@
 ---
 name: ask-next
-description: 当人类询问“下一步做什么/接下来做什么”时触发。读取 todo 的 active 列表并给出 1-3 条下一步建议；本 skill 只读不写。
+description: 当人类询问“下一步做什么/接下来做什么”时触发。读取 todo 的 active 列表给出 1-3 条建议，并做深度闭环检查；需人类确认后再归档。
 ---
 # Ask Next
 

@@ -1,0 +1,9 @@
+version: 1
+root: .ai-workspace
+permissions:
+  yaml_edit: human_only
+  ai_edit_requires_explicit_human_approval: true
+lookup:
+  key: skill_name
+skills:
+  workspace: .ai-workspace/workspace

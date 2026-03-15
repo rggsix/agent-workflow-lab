@@ -1,8 +1,7 @@
 ---
 name: todo
-description: 维护长期待办事项的轻量 skill。用于在 workspace 指定路径下管理未完成任务与月度归档，提供低认知成本的任务维护流程。
+description: 维护长期todo的 skill。用于在 workspace 指定路径下管理todo任务与归档，提供低认知成本的任务维护流程。
 ---
-
 # ToDo
 
 轻量维护长期待办，不做复杂任务系统。

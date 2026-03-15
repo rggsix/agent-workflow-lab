@@ -6,13 +6,13 @@
 
 ```md
 # P0
-- [ ] [需求标签] 待办事项简述 (YYYY-MM-DD)
+- [ ] [需求标签] 待办事项简述 (YYYY-MM-DD) @path:src/foo/bar.ts
 
 # P1
 - [ ] [需求标签] 待办事项简述 (YYYY-MM-DD)
 
 # P2
-- [ ] [需求标签] 待办事项简述 (YYYY-MM-DD)
+- [ ] [需求标签] 待办事项简述 (YYYY-MM-DD) @path:src/baz/qux.ts
 ```
 
 ## 格式约束
@@ -20,7 +20,9 @@
 1. 任务必须包含创建日期 `(YYYY-MM-DD)`。
 2. 不使用 `id`。
 3. 不增加额外字段（如 `desc`/`see`/`status`）。
-4. 描述必须一句话说清。如果关联file/class/function, 需要在描述中体现。
+4. 描述必须一句话说清。如果关联class/function, 需要在描述中体现。
+5. 可选追加路径标记：`@path:<relative-path>`。
+6. 路径标记仅用于定位，不代表已完成；路径变更时应更新或移除标记，但任务仍保留。
 
 ## 优先级
 

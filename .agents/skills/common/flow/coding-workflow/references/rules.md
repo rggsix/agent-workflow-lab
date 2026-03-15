@@ -17,7 +17,7 @@
 1. 步骤1 意图对齐 -> `intent-align`
 2. 步骤2 规划 -> `planning`
 3. 步骤3 ToDo 同步（规划后） -> `precoding-todo`
-4. 步骤4 编码执行 -> `coding-workflow`（遇阻断走 `human-in-loop gate`）
+4. 步骤4 编码执行 -> `execute-coding`（遇阻断走 `human-in-loop gate`）
 5. 步骤5 ToDo 同步（编码后） -> `postcoding-todo`
 6. 步骤6 review + human review -> `coding-workflow` + `human-in-loop gate`
 7. 步骤7 commit -> `commit`

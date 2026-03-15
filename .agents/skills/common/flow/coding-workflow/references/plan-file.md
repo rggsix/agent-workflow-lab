@@ -14,7 +14,13 @@
 ```md
 # Coding Workflow Plan
 
-本次任务的完整内容描述
+## 人类输入摘要
+
+...
+
+## AI返述确认
+
+...
 
 ## 规划产出（planning skill 产物）
 
@@ -29,10 +35,14 @@
 - [ ] 步骤1: 意图对齐 [intent-align]
 - [ ] 步骤2: 规划 [planning]
 - [ ] 步骤3: ToDo 同步（规划后） [precoding-todo]
-- [ ] 步骤4: 编码执行 [coding-workflow]
+- [ ] 步骤4: 编码执行 [execute-coding]
 - [ ] 步骤5: ToDo 同步（编码后） [postcoding-todo]
 - [ ] 步骤6: review + human review [coding-workflow + human-in-loop gate]
 - [ ] 步骤7: commit [commit]
+
+## 偏差说明（执行后填写）
+
+- ...
 ```
 
 ## 生命周期

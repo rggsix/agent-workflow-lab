@@ -4,9 +4,9 @@
 
 ## 格式
 
-`[type][description]`
+`[type][description][task-id:<task-id>/无]`
 
-示例: `[feat][你的commit描述]`
+示例: `[feat][你的commit描述][task-id:20260228-01]`
 
 ## Type
 
@@ -20,3 +20,4 @@
 4. 不解释背景。
 5. 不输出额外文本。
 6. 若变更仅涉及单一类或方法，`description` 必须点名该类或方法。
+7. 若存在 `Task-ID`，必须写入；否则使用 `无`。

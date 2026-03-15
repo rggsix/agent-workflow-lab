@@ -10,6 +10,7 @@
 4. 若存在必须保留的改动，需先获得人类明确指示，再按指示跳过。
 5. commit 前必须执行 `postcoding-todo` 做二次 ToDo 整理（除非人类明确要求跳过）。
 6. 未显式确认“已执行 postcoding-todo”，不得进入提交流程。
+7. 提交前检查是否存在 `coding-workflow/plan.md`；若存在，读取 `Task-ID` 并用于所有原子提交。
 
 ## 禁止
 

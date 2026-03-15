@@ -5,7 +5,7 @@
 ## 7步流程
 
 1. 意图对齐（技术返述，确认后再继续）
-2. 规划（观察上下文、拆解步骤、生成本次 plan）
+2. 规划（调用 planning，生成 spec-lite 并写入 plan）
 3. ToDo 同步（规划后预置：风险项/后续项）
 4. 编码执行（按 plan 执行，遇阻断走 human-in-loop）
 5. ToDo 同步（编码后校正：新增项/完成项）
@@ -15,7 +15,7 @@
 ## 步骤与技能映射
 
 1. 步骤1 意图对齐 -> `intent-align`
-2. 步骤2 规划 -> `coding-workflow`
+2. 步骤2 规划 -> `planning`
 3. 步骤3 ToDo 同步（规划后） -> `todo`
 4. 步骤4 编码执行 -> `coding-workflow`（遇阻断走 `human-in-loop gate`）
 5. 步骤5 ToDo 同步（编码后） -> `todo`
@@ -27,6 +27,7 @@
 - 本 skill 的职责是维护 plan 并按步骤唤起对应 skill，不替代被唤起 skill 的细则。
 - 涉及状态写入时必须遵守 workspace 路径映射。
 - 默认不包含测试、日志沉淀、项目 skills 更新（可后置）。
+- 规划阶段必须产出可执行计划并写入 `plan.md`，作为后续步骤唯一依据。
 
 ## 完成条件
 

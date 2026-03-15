@@ -3,11 +3,6 @@
 - [ ] [编码流程] 讨论并确认第5步：review（AI自检） (2026-02-26)
 - [ ] [编码流程] 讨论并确认第6步：human review（人类确认） (2026-02-26)
 - [ ] [编码流程] 讨论并确认第7步：commit (2026-02-26)
-- [ ] [coding-workflow] 修正步骤2映射占位（去除coding-workflow占位） (2026-02-26)
-- [ ] [coding-workflow] 修正步骤3映射占位（确认todo映射） (2026-02-26)
-- [ ] [coding-workflow] 修正步骤5映射占位（确认todo映射） (2026-02-26)
-- [ ] [coding-workflow] 修正步骤6映射占位（review/human-in-loop映射） (2026-02-26)
-- [ ] [coding-workflow] 修正步骤7映射占位（确认commit映射） (2026-02-26)
 
 # P1
 - [ ] [编码流程] 完成编码后检查是否有 ToDo 需要标记为完成 (2026-02-26)

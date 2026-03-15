@@ -8,7 +8,7 @@
 2. 规划（调用 `planning`，结果写入 `plan.md`）
 3. ToDo 同步（规划后预置：风险项/后续项）
 4. 编码执行（按 `plan.md` 中的 planning 结果顺序推进；可调实现细节但需记录偏差；仅在需增删计划条目或越界时触发 human-in-loop）
-5. AI review（确认是否符合代码规范, 开发习惯）
+5. AI review（自检闭环）
 
 ## 步骤与技能映射
 
@@ -16,7 +16,7 @@
 2. 步骤2 规划 -> `planning`
 3. 步骤3 ToDo 同步（规划后） -> `precoding-todo`
 4. 步骤4 编码执行 -> `execute-coding`（遇阻断走 `human-in-loop gate`）
-5. 步骤5 AI review -> `coding-workflow`
+5. 步骤5 AI review -> `ai-review`
 
 ## 边界
 

@@ -7,6 +7,11 @@
 - `git add`
 - `git commit`
 
+## 强制触发
+
+1. 凡涉及 `git add` 或 `git commit` 的请求，必须先进入本 skill。
+2. 未完成原子化分组与规则校验，不得执行提交。
+
 ## 禁止
 
 - `git push`

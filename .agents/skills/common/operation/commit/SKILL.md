@@ -1,6 +1,6 @@
 ---
 name: commit
-description: 执行原子化 git 提交。用于在不 push、不改配置、不用强制命令的前提下，完成变更分组、staging 与 commit，并保证一个 commit 只表达一个逻辑变更。
+description: 执行原子化 git 提交。凡涉及 `git add` 或 `git commit` 的请求，必须先使用本 skill 完成分组与规则校验；未通过校验不得提交。提交过程中禁止 push、改配置和强制命令。
 ---
 
 # Commit

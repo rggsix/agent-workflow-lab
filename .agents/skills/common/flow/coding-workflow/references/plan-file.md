@@ -45,6 +45,10 @@ Task-ID: YYYYMMDD-<seq>
 - [ ] 步骤4: 编码执行 [execute-coding]
 - [ ] 步骤5: AI review [ai-review]
 
+## AI Review 记录（reviewer 输出）
+
+...
+
 ## 偏差说明（执行后填写）
 
 - ...

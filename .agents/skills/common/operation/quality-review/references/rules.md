@@ -9,6 +9,15 @@
 3. 检查维度：结构/命名/可维护性/测试/风险点。
 4. 若无问题，输出“Quality OK”。
 
+## 输出格式
+
+```text
+Quality Review
+- reason: [质量问题] 清晰且可执行的说明
+- file: path/to/file
+- line: 12
+```
+
 ## 禁止
 
 - 不讨论需求是否实现（交给 spec-review）。

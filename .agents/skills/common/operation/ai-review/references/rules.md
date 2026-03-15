@@ -11,6 +11,7 @@
    3. `Spec OK` 后，`ai-review` 调用 `quality-review`。
    4. 若 `quality-review` 有问题：`ai-review` 修复后 **重新执行 `quality-review`**，直到 `Quality OK` 或 `quality-review` 已执行超 3 次。
    5. 两者均 OK 后，`ai-review` 输出“无问题”。
+   6. reviewer 输出结果交给 `ai-review` 汇总，`ai-review` 在流程结束后统一回写 `plan.md`。
 3. `spec-review` 未通过不得进入 `quality-review`。
 4. 若达到次数上限仍有问题，触发 human-in-loop。
 

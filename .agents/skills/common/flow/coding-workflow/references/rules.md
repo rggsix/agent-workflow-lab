@@ -7,7 +7,7 @@
 1. 意图对齐（技术返述，确认后再继续）
 2. 规划（调用 `planning`，结果写入 `plan.md`）
 3. ToDo 同步（规划后预置：风险项/后续项）
-4. 编码执行（按计划顺序推进；可调实现细节但需记录偏差；仅在需增删计划条目或越界时触发 human-in-loop）
+4. 编码执行（按 `plan.md` 中的 planning 结果顺序推进；可调实现细节但需记录偏差；仅在需增删计划条目或越界时触发 human-in-loop）
 5. ToDo 同步（编码后校正：新增项/完成项）
 6. review + human review
 7. commit（必须走 commit skill）

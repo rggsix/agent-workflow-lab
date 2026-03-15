@@ -10,9 +10,9 @@
 
 ## 3. operation skills
 
-##### 1. todo
+##### 1. [todo](../../.agents/skills/common/operation/todo/SKILL.md)
 
-告诉AI怎么管理todo
+管理长期待办（active + archive），保持低认知负担。
 
 路径位于
 
@@ -34,6 +34,6 @@
 ...
 ```
 
-#### 2. commit
+#### 2. [commit](../../.agents/skills/common/operation/commit/SKILL.md)
 
-commit规则与约束, 你可以根据你的团队习惯修改这个skills
+原子化提交规则与约束（只做 add/commit，禁止 push/force/config 改动）。

@@ -6,6 +6,8 @@
 
 `[type][description]`
 
+示例: `[feat][你的commit描述]`
+
 ## Type
 
 `feat` / `fix` / `refactor` / `docs` / `style` / `perf` / `test` / `chore`

@@ -8,3 +8,4 @@ lookup:
 skills:
   workspace: .ai-workspace/workspace
   todo: .ai-workspace/todo
+  coding-workflow: .ai-workspace/coding-workflow

@@ -28,7 +28,8 @@ flowchart TB
 #### 具体流程如下:
 
 1. 轻量规划, 决定是否进入plan流程 [flow-gate]
-   - if not: return
+   - if true: [coding-workflow] skills
+   - else: return
 2. 了解与分析人类意图
    - 可以理解为技术返述
 3. 规划

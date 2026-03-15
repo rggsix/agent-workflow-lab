@@ -49,12 +49,12 @@ flowchart TB
 8. [ai-review](/Users/admin/personal/agent-worflow-lab/.agents/skills/common/operation/ai-review/SKILL.md), 确认:
    1. 已完成需求
    2. 符合代码规范, 无风险点等
-9.  --- 人类介入 ---
+9. --- 人类介入 ---
 10. hunman review
-11. commit流程, 人类触发: "提代码"
-    1. 二次 ToDo 规划整理
+11. commit流程, 人类触发: "提代码" [commit]
+    1. 二次 ToDo 规划整理 [postcoding-todo]
        - 是否引入隐患或有待完成项需要记录?
        - 是否有已完成项需要标记
     2. (TODO)沉淀开发日志?
     3. (TODO)自总结更新 **项目skills**
-    4. commit[commit]
+    4. 原子化commit

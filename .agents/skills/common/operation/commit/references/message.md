@@ -4,7 +4,7 @@
 
 ## 格式
 
-`<type>: <description>`
+`[type][description]`
 
 ## Type
 

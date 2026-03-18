@@ -49,9 +49,10 @@ flowchart TB
 8. [ai-review](../../.agents/skills/common/operation/ai-review/SKILL.md), 确认:
    1. 已完成需求
    2. 符合代码规范, 无风险点等
-9. --- 人类介入 ---
-10. hunman review
-11. commit流程, 人类触发: "提代码" [commit](../../.agents/skills/common/operation/commit/SKILL.md)
+9. [project-memory](../../.agents/skills/common/operation/project-memory/SKILL.md) 项目记忆落盘
+10. --- 人类介入 ---
+11. hunman review
+12. commit流程, 人类触发: "提代码" [commit](../../.agents/skills/common/operation/commit/SKILL.md)
     1. 二次 ToDo 规划整理 [postcoding-todo](../../.agents/skills/common/operation/postcoding-todo/SKILL.md)
        - 是否引入隐患或有待完成项需要记录?
        - 是否有已完成项需要标记

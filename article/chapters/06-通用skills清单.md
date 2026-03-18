@@ -65,3 +65,7 @@ AI 自检闭环：spec-review → quality-review → 修复复检。
 ##### 9. [commit](../../.agents/skills/common/operation/commit/SKILL.md)
 
 原子化提交规则与约束（只做 add/commit，禁止 push/force/config 改动）。
+
+##### 10. [project-memory](../../.agents/skills/common/operation/project-memory/SKILL.md) 
+
+项目记忆落盘, 负责记忆开发习惯, 开发进度与项目关键信息等
